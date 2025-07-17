@@ -77,19 +77,19 @@
 //! Enum : // An enum is a way to define a set of named constants
 
 
-enum Role {
-   AUTHOR,
-    ADMIN,
-    GUEST
-}
+// enum Role {
+//    AUTHOR,
+//     ADMIN,
+//     GUEST
+// }
 
-const person = {
-    name: "Saswat",
-    age: 21,
-    skills: ["js", "ts", "c++"],
-    role: Role.AUTHOR
-}
+// // const person = {
+// //     name: "Saswat",
+// //     age: 21,
+// //     skills: ["js", "ts", "c++"],
+// //     role: Role.AUTHOR
+// // }
 
-if(person.role === Role.AUTHOR) {
-    console.log("You are an author");
-}
+// if(person.role === Role.AUTHOR) {
+//     console.log("You are an author");
+// }
