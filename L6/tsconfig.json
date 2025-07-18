@@ -113,4 +113,12 @@
   "include": [
     "./**/*.ts",
   ],//it will include all ts files in the current directory and subdirectories with the .ts extension and .tsx extension buut does
+  "exclude": [
+    "./node_modules",
+    "./dist",
+    "./build",
+    "./coverage",
+    "./.vscode-test",
+    "classes.ts",
+  ],//it will exclude all files in the node_modules, dist, build, coverage and .vscode-test directories
 }
