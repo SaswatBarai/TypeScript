@@ -108,3 +108,13 @@ function useSpecies (spc : species) {
     }
 
 }
+
+
+
+//Type Casting 
+
+const userInputElement = <HTMLInputElement>document.getElementById('user-input');
+
+if (userInputElement) {
+    userInputElement.value = 'Hello, TypeScript!';
+}
